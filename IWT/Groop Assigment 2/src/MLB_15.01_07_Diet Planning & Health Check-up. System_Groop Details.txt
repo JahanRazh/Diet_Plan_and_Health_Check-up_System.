@@ -1,0 +1,21 @@
+
+Batch Number: Y1.S2.WD.15.1
+Group Number: MLB_15.01_07
+Project Title: Diet Planning & Health Check-up System
+Project link  :https://mysliit-my.sharepoint.com/:f:/g/personal/it22575562_my_sliit_lk/EqsFGi6O3WNJi3IdFI19gEcBjdzha2OimtrO0Nqy6nVAmg?e=3dNyNe
+
+Group Details
+
+Student ID      Student Name			Email			      Contact Number         Implementation Function
+
+1 IT22575562    WIJEKOON W.M.M.G.K.P.		 IT22575562@my.sliit.lk         071-4985025           Home page, User Accunt page, Login & Register 
+
+2 IT22567642    THILAKARATHNA P.L.B.H.		 IT22567642@my.sliit.lk         077-6597112           ontact Us,Customer service plan , Online & Offline Payment Option 
+
+3 IT22591098    JAYALATH J.P.R.J.		 IT22591098@my.sliit.lk         076-7221436           Telelemedicine,Diet plan,Appointment For Diet Plan
+
+4 IT22566034    PERERA K.C.D.                    IT22566034@my.sliit.lk         076-5814575           About Us,Health Check_up ,Appointment For Health Check-up 
+  
+5 IT22217622    HETTIARACHCHI A.N.M.             IT22217622my.sliit.lk          071-3611854           Feedback , Medical  informationConfirm your payment 
+
+

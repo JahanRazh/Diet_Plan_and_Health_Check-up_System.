@@ -1,0 +1,13 @@
+﻿  Health_checkup.cpp
+  Main program.cpp
+  Payment.cpp
+F:\SLIIT Campus\2nd semester\oop\Main program\Payment.h(10,10): error C3646: 'Payment_type': unknown override specifier
+F:\SLIIT Campus\2nd semester\oop\Main program\Payment.h(10,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+F:\SLIIT Campus\2nd semester\oop\Main program\Payment.h(14,38): error C2061: syntax error: identifier 'string'
+F:\SLIIT Campus\2nd semester\oop\Main program\Payment.cpp(8,15): error C2511: 'void Payment::setpayment_Details(int,std::string)': overloaded member function not found in 'Payment'
+F:\SLIIT Campus\2nd semester\oop\Main program\Payment.h(5,7): message : see declaration of 'Payment'
+F:\SLIIT Campus\2nd semester\oop\Main program\Payment.cpp(10,5): error C2597: illegal reference to non-static member 'Payment::payment_id'
+F:\SLIIT Campus\2nd semester\oop\Main program\Payment.h(9,7): message : see declaration of 'Payment::payment_id'
+F:\SLIIT Campus\2nd semester\oop\Main program\Payment.cpp(11,5): error C2065: 'Payment_type': undeclared identifier
+F:\SLIIT Campus\2nd semester\oop\Main program\Payment.cpp(18,25): error C2065: 'Payment_type': undeclared identifier
+  Generating Code...

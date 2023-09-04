@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>confirm your details Diet plan & health check_up system </title>
+
+    <!--link- style sheets-->
+<link rel="stylesheet" href="../css/voucher.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<style>
+body
+{
+    background-image: url("../images/report5.jpg");
+    background-size: cover;
+    background-position: center;
+	
+}
+</style>
+
+</head>
+<body>
+    <!--header section starts-->
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <td width="500" height="150"><p align="left"><img src="img/logo.png" width="100" height="50" alt="logo"></p></td>
+    
+        <nav class="navbar">
+            <a href="../index.html">Home</a>
+            <a href="./about us.html">About us</a>
+            <div class="dropdown">
+                <button class="dropbtn">services
+                    <i class="fa fa-caret-down"></i>
+                </button>  
+                <div class="dropdown-content">
+                    
+                    <li type="none"><h1>Customer committment</h1></li>
+                    <a href="../customer service  plan.html">Customer service plan</a>
+                    
+                    <li type="none"><h1>Special Assistance</h1></li>
+                   
+                    <a href="./medical-information.html">medical Information</a>
+                    
+        
+        
+        
+                </div></div>
+            
+        <div class="dropdown">
+            <button class="dropbtn">payment
+                <i class="fa fa-caret-down"></i>
+            </button>  
+            <div class="dropdown-content">
+           
+                <li type="none"> <h1>Payment Option</h1></li>
+                <a href="../html/payment.html">Online and offline payment option</a>
+                <a href="../html/voucher.html">Redeem your travel voucher</a>
+               
+            </div>
+        </div>
+    
+            <a href="../html/Contact us.html">Contact Us</a>
+            <a href="../html/feedback.html">Feedback</a>
+        </nav>
+    
+    
+    
+        <div class="icons">
+            <i class="fas fa-search" id ="search-btn"></i>
+            <i class="fas fa-user" id ="login-btn"></i>
+            
+        </div>
+           <form action=""class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here">
+            <label for="search-bar" class="fas fa-search"></label>
+           </form> 
+            
+    </header>
+<!--header section ends-->
+
+
+<br /><br /><br /><br /><br /><br /><br /><br />
+<h2>Check your Report to Confirm your Details  : <h2>
+<form action="../php/Voucher.php" method="post">
+<div class="redeem-voucher">
+    <div class="voucher-form">
+    <label><u>Enter your Recipt details</u></label><br><br>
+    <label>Enter your Name</label>
+    <input type="text" name="Name" class="form-control" placeholder="Your name(as per voucher)">
+    </div>
+
+<div class="input-grp">
+    <label>Voucher number</label>
+    <input type="number" name="VNumber" class="form-control" placeholder="1111-2222-3333-4444">
+</div>
+
+<div class="voucher-form">
+    <label>Enter your contact details</label>
+    <input type="text" name="Email" class="form-control" placeholder="Enter your email address">
+</div>
+
+<div class="voucher-form">
+    <label>check_up report </label>
+    <input type="text" name="Plan" class="form-control" placeholder="Health check_up or Diet plan">
+<label>Reason</label>
+    <input type="text" name="Reason" class="form-control" placeholder="............................">
+
+<div class="input-grp">
+    <label>Date</label>
+    <input type="date" name="Date" class="form-control select-date">
+</div>
+
+<div class="input-grp">
+    <label>Enter your phone number</label>
+    <input type="number" name="Phone_Number" class="form-control" placeholder="+94771234567">
+</div>
+
+<div class="input-grp">
+<label>Payment Type </label>
+    <select class="custom-select "name="Payment_Type">
+    <option value="Online Payment" name="Payment_Type">Online Payment</option>
+    <option value="Offline Payment" name="Payment_Type">Offline Payment</option>
+    </select>
+</div>
+
+
+<br /><br />
+<div class="input-grp">
+    <button type="submit" name="submit" class="btn btn-primary flight">Submit</button>
+    <a href="../php/displayvoucher.php" class="btn btn-primary btn-lg" role="button">View Appointments</a>
+
+</div>
+
+</div>
+</div>
+</form>
+
+
+    
+
+  
+
+    <!--footer section start-->
+    <section class="footer"> 
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>About us</h3>
+                <a href="#">About us</a>
+                <a href="#">Our community</a>
+                <a href="#">Careers</a>
+            </div>
+            <div class="box">
+                <h3>Help</h3>
+                <a href="#">24 hours contact center</a>
+                <a href="#">FAQs</a>
+            </div>
+            <div class="box">
+                <h3>Terms and Conditions</h3>
+                <a href="#">Online Banking Teams of use</a>
+                <a href="#">Diet For Health</a>
+            </div>
+            <div id="social-links" class="box">
+                <h3>Follow us</h3>
+              
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                    
+                
+            </div>
+        </div>
+        <h1 class="credit"><span>@ 2023 All Rights Reseverd </span></h1>
+     </section>
+
+
+<!--footer section end-->
+
+
+
+
+
+
+
+
+
+<!--link js files-->
+<script src="../js/voucher.js"></script>
+
+</body>
+</html>
