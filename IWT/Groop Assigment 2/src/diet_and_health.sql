@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 11, 2023 at 08:49 AM
+-- Generation Time: Oct 06, 2023 at 09:16 PM
 -- Server version: 10.4.28-MariaDB
--- PHP Version: 8.0.28
+-- PHP Version: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -76,7 +76,7 @@ CREATE TABLE `diatplanappointment` (
 
 INSERT INTO `diatplanappointment` (`Appid`, `Fullname`, `Email`, `Gender`, `Age`, `Pnumber`, `Nutrition_name`, `City`, `Date`, `Time`) VALUES
 (82, 'kanishka', 'behan@gmail.com', 'Male', 23, 2147483647, 'SDAD', 'matale', '2023-06-14', '8.30-10.30 AM'),
-(83, 'kumara', 'kumar@gmail.com', 'Male', 2, 2147483647, 'sdcsdc', 'sadxaD', '2023-07-06', '6.30-8.30 PM');
+(84, 'Mr.Jahan Ramesh', 'jahanrazh@gmail.com', 'Male', 53, 767221436, 'Mr.kumara siriwardhana', 'colombo', '2023-10-25', '10.30-12.30 PM');
 
 -- --------------------------------------------------------
 
@@ -132,7 +132,7 @@ CREATE TABLE `register` (
 
 INSERT INTO `register` (`RID`, `Fname`, `Lname`, `Email`, `Password`, `phoneNumber`, `country`, `address`, `nic`) VALUES
 (40, 'kanishka', 'wijekoon', 'kanishka2@gmail.com', '123', 714985025, 'srilanka', 'Galewela', '2000019001080'),
-(41, 'imaya', 'wijekoon', 'imaya@gmail.com', '123456', 714985025, 'srilanka', 'Galewela', '200017001082');
+(42, 'jahan', 'ramesh', 'jahanrazh@gmail.com', 'Razh@3165', 767221436, 'sri lanak', 'kawisigamuwa morathiha', '200013502372');
 
 -- --------------------------------------------------------
 
@@ -207,7 +207,7 @@ ALTER TABLE `appointment`
 -- AUTO_INCREMENT for table `diatplanappointment`
 --
 ALTER TABLE `diatplanappointment`
-  MODIFY `Appid` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=84;
+  MODIFY `Appid` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=85;
 
 --
 -- AUTO_INCREMENT for table `payment_details`
@@ -219,7 +219,7 @@ ALTER TABLE `payment_details`
 -- AUTO_INCREMENT for table `register`
 --
 ALTER TABLE `register`
-  MODIFY `RID` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
+  MODIFY `RID` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=43;
 
 --
 -- AUTO_INCREMENT for table `voucher`
