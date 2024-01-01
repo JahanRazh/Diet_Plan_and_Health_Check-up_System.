@@ -11,7 +11,7 @@ Student ID      Student Name			Email			      Contact Number         Implementati
 
 1 IT22575562    WIJEKOON W.M.M.G.K.P.		 IT22575562@my.sliit.lk         071-4985025           Home page, User Accunt page, Login & Register 
 
-2 IT22567642    THILAKARATHNA P.L.B.H.		 IT22567642@my.sliit.lk         077-6597112           ontact Us,Customer service plan , Online & Offline Payment Option 
+2 IT22567642    THILAKARATHNA P.L.B.H.		 IT22567642@my.sliit.lk         077-6597112           Contact Us,Customer service plan , Online & Offline Payment Option 
 
 3 IT22591098    JAYALATH J.P.R.J.		 IT22591098@my.sliit.lk         076-7221436           Telelemedicine,Diet plan,Appointment For Diet Plan
 
