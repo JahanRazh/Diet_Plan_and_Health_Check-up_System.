@@ -1,5 +1,9 @@
 body {
-    background: rgb(99, 39, 120)
+    background: rgb(99, 39, 120);
+    background-image: url("../images/profile.jpg");
+    background-size: cover; /* You can adjust the size as needed */
+    background-position: center; /* You can adjust the position as needed */
+    background-repeat: no-repeat;
 }
 
 .form-control:focus {
