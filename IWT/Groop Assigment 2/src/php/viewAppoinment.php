@@ -34,7 +34,7 @@ body{
 
     <nav class="navbar">
         <a href="../index.html">Home</a>
-        <a href="./about us.html">About us</a>
+        <a href="../html/about us.html">About us</a>
         <div class="dropdown">
             <button class="dropbtn">services
                 <i class="fa fa-caret-down"></i>
@@ -77,7 +77,7 @@ body{
         <i class="fas fa-user" id ="login-btn"></i>
         
     </div>
-       <form action=""class="search-bar-container">
+       <form action="" class="search-bar-container">
         <input type="search" id="search-bar" placeholder="search here">
         <label for="search-bar" class="fas fa-search"></label>
        </form> 
@@ -140,10 +140,10 @@ body{
                     </div>
                 </div>
 
-                <div class="buttons">
-                    <button type="button" id="updateBtn"><a href="../php/updateAppoinment.php?update=<?php echo $fetch_appoinment['aid']; ?>" style="text-decoration: none; color: inherit;">Update</a></button>
-                    <button type="button" id="deleteBtn"><a href="viewAppoinment.php?delete=<?php echo $fetch_appoinment['aid']; ?>" onclick="return confirm('Delete this appoinment?');" style="text-decoration: none; color: inherit;">Delete</a></button>
-                </div>
+                <p>
+                    <button type="button" class="btn btn-primary btn-lg id="updateBtn"><a href="../php/updateAppoinment.php?update=<?php echo $fetch_appoinment['aid']; ?>" style="text-decoration: none; color: inherit;">Update</a></button>
+                    <button type="button" class="btn btn-primary btn-lg id="deleteBtn"><a href="viewAppoinment.php?delete=<?php echo $fetch_appoinment['aid']; ?>" onclick="return confirm('Delete this appoinment?');" style="text-decoration: none; color: inherit;">Delete</a></button>
+                </p>
             </div>
         </div>
 
