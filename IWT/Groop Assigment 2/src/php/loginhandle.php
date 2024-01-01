@@ -1,21 +1,18 @@
 <?php
-// Process the form submission
-$email = $_POST["email"];
-$password = $_POST["password"];
+require 'connection.php';
 
-// Database connection parameters
-$servername = "localhost";
-$username = "root";
-$db_password = "";
-$dbname = "diet_and_health";
 
 // Create a new connection
-$conn = new mysqli($servername, $username, $db_password, $dbname);
+$conn = new mysqli($servername, $username, $password, $db_name);
 
 // Check the connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
+
+// Process the form submission
+$email = $_POST["email"];
+$password = $_POST["password"];
 
 // Prepare and execute the SQL query
 $stmt = $conn->prepare("SELECT * FROM register WHERE Email = ? AND Password = ?");
@@ -32,20 +29,16 @@ if ($result->num_rows == 1) {
     // Get the RID value from the database
     $row2 = $result->fetch_assoc();
     $RID = $row2['RID'];
-
-    // Close the statement and database connection
-    $stmt->close();
-    $conn->close();
-
+    
     // Redirect to the login.php page with RID parameter
-    header("Location: login.php?RID=$RID");
+    header("Location: profile.php?RID=$RID");
+
     exit();
+   
 } else {
     echo "<script>alert('Login Failed! Invalid credentials'); window.location.href = '../html/Registration.html';</script>";
     exit();
 }
 
-// Close the statement and database connection
-$stmt->close();
-$conn->close();
+
 ?>
