@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1
+-- version 4.8.3
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Jun 11, 2023 at 07:42 AM
--- Server version: 10.4.28-MariaDB
--- PHP Version: 8.2.4
+-- Host: localhost:3306
+-- Generation Time: Jan 01, 2024 at 05:30 PM
+-- Server version: 5.7.24
+-- PHP Version: 7.2.14
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -38,14 +39,15 @@ CREATE TABLE `diatplanappointment` (
   `City` char(50) NOT NULL,
   `Date` date NOT NULL,
   `Time` char(30) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `diatplanappointment`
 --
 
 INSERT INTO `diatplanappointment` (`Appid`, `Fullname`, `Email`, `Gender`, `Age`, `Pnumber`, `Nutrition_name`, `City`, `Date`, `Time`) VALUES
-(1, 'Mr.kumara Disanayaka', 'www.kumara3165@gmail.com', 'Male', 25, 767445689, 'Mr.smarakoon', 'Kurunegala', '2023-07-31', '8.30-10.30 AM');
+(1, 'Mr.kumara Disanayaka', 'www.kumara3165@gmail.com', 'Male', 25, 767445689, 'Mr.smarakoon', 'Kurunegala', '2023-07-31', '8.30-10.30 AM'),
+(81, 'Mrs.wiwiyam Randunupura', 'wiwiyanrandunupura@gmail.com', 'Female', 58, 377221436, 'Mr. wasantha', 'kurunegala', '2024-01-18', '8.30-10.30 AM');
 
 --
 -- Indexes for dumped tables
@@ -65,7 +67,7 @@ ALTER TABLE `diatplanappointment`
 -- AUTO_INCREMENT for table `diatplanappointment`
 --
 ALTER TABLE `diatplanappointment`
-  MODIFY `Appid` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=81;
+  MODIFY `Appid` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=82;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

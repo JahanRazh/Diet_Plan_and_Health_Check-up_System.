@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1
+-- version 4.8.3
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Jun 10, 2023 at 12:50 PM
--- Server version: 10.4.28-MariaDB
--- PHP Version: 8.2.4
+-- Host: localhost:3306
+-- Generation Time: Jan 01, 2024 at 05:31 PM
+-- Server version: 5.7.24
+-- PHP Version: 7.2.14
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -37,20 +38,19 @@ CREATE TABLE `voucher` (
   `Date` date NOT NULL,
   `Phone_Number` int(10) NOT NULL,
   `Payment_Type` varchar(15) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `voucher`
 --
 
 INSERT INTO `voucher` (`VID`, `Name`, `VNumber`, `Email`, `Plan`, `Reason`, `Date`, `Phone_Number`, `Payment_Type`) VALUES
-(1, 'Avishka', 0, 'avishkaniraj2001@gmail.com', 'Health checkup', 'Mental', '2023-06-08', 776237073, ''),
-(2, 'Avishka', 12, 'avishkaniraj2001@gmail.com', 'Health checkup', 'Mental', '2023-06-08', 776237073, ''),
-(3, 'Avishka', 123, 'avishkaniraj2001@gmail.com', 'Health checkup', 'Mental', '2023-06-09', 776237073, ''),
-(5, 'Avishka', 123, 'avishkaniraj2001@gmail.com', 'Health checkup', 'Mental', '2023-06-09', 776237073, ''),
-(6, 'Avishka', 123, 'avishkaniraj2001@gmail.com', 'Health checkup', 'Mental', '2023-06-09', 776237073, ''),
-(7, 'Avishka', 123, 'avishkaniraj2001@gmail.com', 'Health checkup', 'Mental', '2023-06-10', 776237073, '1'),
-(8, 'Avishka', 123, 'avishkaniraj2001@gmail.com', 'Health checkup', 'Mental', '2023-06-10', 776237073, '1'),
+(1, 'Avishka', 0, 'avishkaniraj2001@gmail.com', 'Health checkup', 'Mental', '2023-06-08', 776237073, 'Online Payment'),
+(3, 'Avishka', 123, 'avishkaniraj2001@gmail.com', 'Health checkup', 'Mental', '2023-06-09', 776237073, 'Pysical Payment'),
+(5, 'Avishka', 123, 'avishkaniraj2001@gmail.com', 'Health checkup', 'Mental', '2023-06-09', 776237073, 'Pysical Payment'),
+(6, 'Avishka', 123, 'avishkaniraj2001@gmail.com', 'Health checkup', 'Mental', '2023-06-09', 776237073, 'Pysical Payment'),
+(7, 'Avishka', 123, 'avishkaniraj2001@gmail.com', 'Health checkup', 'Mental', '2023-06-10', 776237073, 'Online Payment'),
+(8, 'Avishka', 123, 'avishkaniraj2001@gmail.com', 'Health checkup', 'Mental', '2023-06-10', 776237073, 'Online Payment'),
 (9, 'Avishka', 123, 'avishkaniraj2001@gmail.com', 'Health checkup', 'Mental', '2023-06-10', 776237073, 'Online Payment');
 
 --
