@@ -88,6 +88,7 @@
             <label for="search-bar" class="fas fa-search"></label>
          </form>
       </header>
+
       <!-- sf -->
       <br><br><br><br><br><br><br>
       <!--background image-->
@@ -98,7 +99,9 @@
          background-repeat: no-repeat;
          height: 100vh;
          }
+         
       </style>
+      
       <!--link js files-->
       <script src="../js/home.js"></script>
    </body>
