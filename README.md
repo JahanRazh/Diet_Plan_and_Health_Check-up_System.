@@ -10,3 +10,6 @@ Diet planning and health check-up system is a system that contributes to maintai
 
 <img src="https://github.com/JahanRazh/Diet_Plan_and_Health_Check-up_System./blob/8d7d8111974fd3c6f05a7b4a7601fef7cbb08df3/Home.png" width="100%" />
 <img src="https://github.com/JahanRazh/Diet_Plan_and_Health_Check-up_System./blob/d892c9792862a5b456553382f507432c120d4543/Home2.png" width="100%"/>
+![About us](https://github.com/user-attachments/assets/3aef4fb3-95b0-4a8e-b310-85b6c7d3bcf3)
+
+
