@@ -7,6 +7,8 @@ web site into the IWT Folder Group  Assigment 2/src ,check it
 https://github.com/JahanRazh/Diet_Plan_and_Health_Check-up_System./tree/a7314840d6f22676add3b4080e1905a731c797de/IWT/Groop%20Assigment%202/src
 
 Diet planning and health check-up system is a system that contributes to maintaining our health based on our needs and wants. This is very helpful in protecting our health as well as looking for weaknesses. The health check-up and diet planning system plays a vital role in promoting overall health and well-being. Regular health check-ups are essent
+![image](https://github.com/user-attachments/assets/d3bd05d7-0895-46f7-b9e6-2c101e0fce7a)
+
 
 ![1704126635399](https://github.com/user-attachments/assets/e6240256-af74-4018-93ea-4dc1c1fd0f32)
 
